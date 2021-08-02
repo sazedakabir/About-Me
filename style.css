@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  background-color: powderblue;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+ul {
+  padding: 10px;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}

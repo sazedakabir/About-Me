@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<body onload="welcome()">
+
+
+  <h1 id=color onmouseover="mouseOver()" onmouseout="mouseOut()"style="font-family:brush script mt">Sazeda Kabir</h1>
+  
+  
+
+	<style>
+		body {
+			text-align: center;
+			background-color: #DBF9FC;
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+	</style>
+
+	<ul>
+		<li><a href="https://Do-Now-719.sazedakabir.repl.co" target=blank>Music I Like</a></li>
+		<li><a href="https://About-Me-Hobbies.sazedakabir.repl.co" target=blank>Hobbies</a></li>
+		<li><a href="#" target=blank>Social Media</a></li>
+	</ul>
+
+	<p>
+		Hi! I'm Sazeda. I'm a rising senior at Bronx Science in New York City and am currently 17 years old. I'm a Bengali-American
+		and was born and raised in Queens, New York.
+	</p>
+
+    <button onclick="myEthnicity()">Where is Bangladesh?</button>
+
+    <div id="space"></div>
+
+
+
+    <h3> Dreams and Aspirations </h3>
+
+    <p> My biggest dream has always been to publish my own novel. Taking steps toward that goal is probably one of the hardest yet most fulfilling things I have ever done. Just past summer, I completed my first draft for my first novel, which you can find <a href="https://www.wattpad.com/story/54725880-i%27m-with-the-billionaire?utm_source=web&utm_medium=email&utm_content=share_myworks" target=blank>here</a>. I am currently working on another.
+    </p>
+    <p>
+      The human mind is a fascinating thing, and there is still so much more we can and need to learn about the brain. I've grown more inclined toward psychology and neuroscience and plan on studying neuroscience in college. 
+    </p>
+  
+  <h3> Family </h3>
+    <p>
+      My family consists of me, my mother, my father and my older brother. 
+    </p> 
+
+
+  <script>
+
+    function welcome() {
+      alert("Welcome to my website!");
+    }   
+
+    function mouseOver() {
+      document.getElementById("color").style.color = "purple";
+    }
+
+    function mouseOut() {
+      document.getElementById("color").style.color = "black";
+    }
+
+
+    function myEthnicity() {
+      var text = "<img src='https://www.worldatlas.com/r/w768/upload/d2/87/51/bd-02.jpg'>";
+
+      document.getElementById("space").innerHTML = text;
+    }
+
+    
+
+	</script>
+
+
+
+
+  </body>
+
+
+
+</html>
